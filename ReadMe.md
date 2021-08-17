@@ -1,4 +1,4 @@
-Deep Learning Analysis on the Fashion MNIST Dataset
+Deep Learning Analysis on the Arabic MNIST-esque Dataset
 
 ---
 
