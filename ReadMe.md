@@ -20,6 +20,8 @@ Deep Learning Analysis on the Arabic MNIST-esque Dataset
 6. --bs     - Batch Size used for dataloader creation
 
 7. --early  - Number of epochs to wait after stagnated validation metrics before stopping the training
+
+8. --kaggle - Kaggle Support for notebooks created on the dataset
 </pre>
 
 &nbsp;

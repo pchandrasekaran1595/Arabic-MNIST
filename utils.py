@@ -16,7 +16,8 @@ def myprint(text: str, color: str) -> None:
 SEED = 0
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 TRANSFORM = transforms.Compose([transforms.ToTensor(),])
-DATA_PATH = "./Data"
+DATA_PATH_1 = "./Data"
+DATA_PATH_2 = "../input/ahcd1"
 CHECKPOINT_PATH = "./Checkpoints"
 if not os.path.exists(CHECKPOINT_PATH):
     os.makedirs(CHECKPOINT_PATH)
